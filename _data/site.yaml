@@ -1,11 +1,12 @@
-title: Agency Name
+title: Public Building Services
 email: contact@example.gov
 description: >- # this means to ignore newlines
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+  Workplace 2030 will propel federal work into the next decade with renewed commitment to
+  government’s stewardship of the environment, representation and workplace equity, the
+  well-being of federal employees and their customers, and economic growth
 
 # Twitter handle. Only the handle, not the URL.
-twitter: 18F
+twitter: USGSA
 
 #################################################################
 #
@@ -41,7 +42,7 @@ twitter: 18F
 #
 #################################################################
 dap:
-  # agency: your-agency
+  agency: GSA
 
   # Optional
   # subagency: your-subagency
@@ -56,17 +57,23 @@ primary_navigation:
     url: /
   - name: Blog
     url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
+  - name: Service Offerings
     children:
-      - name: Navigation link
+      - name: Flexible Coworking Services IDIQ
         url: "#main-content"
-      - name: Navigation link
+      - name: Home Office Solutions
         url: "#main-content"
-      - name: Navigation link
+      - name: Federal FlexHub
+        url: "#main-content"
+      - name: Workplace Innovation Lab (WIL)
+        url: "#main-content"
+      - name: Fast Track Space
+        url: "#main-content"
+      - name: Workplace Investment Feasibility Model
+        url: "#main-content"
+      - name: Federal Space Listing
+        url: "#main-content"
+      - name: Workspace App
         url: "#main-content"
 
 secondary_navigation:

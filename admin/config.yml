@@ -1,11 +1,11 @@
 ## Comment out when doing local development
 backend:
   name: github
-  repo: cloud-gov/11ty-uswds-template
+  repo: GSA/sd-11ty-cloud-prototype
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  branch: master
+  branch: main
   use_graphql: true
 
 ##
