@@ -1,0 +1,27 @@
+---
+layout: layouts/base
+---
+
+{% comment %}
+This template is for a service offering
+{% endcomment %}
+
+<div id="main-content" class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <main>
+        <h1>{{ title }}</h1>
+        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+          <div>Goals:
+            <ul> 
+              {%- for goal in goals %}
+                <li>{{ goal }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div>{{ content }}</div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
