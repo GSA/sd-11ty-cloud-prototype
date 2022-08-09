@@ -1,0 +1,19 @@
+site_name: Workplace 2030 
+agency: U.S. General Services Administration
+agency_acronym: GSA
+agency_logo: gsa-logo-blue.svg
+agency_logo_path: _img/gsa-logo-blue.svg
+agency_url: https://www.gsa.gov
+agency_about_url: https://www.gsa.gov/about
+org_primary: Public Building Services 
+org_primary_acronym: PBS
+org_primary_url: https://www.gsa.gov/about-us/organization/public-buildings-service
+org_primary_about: https://www.gsa.gov/about-us/organization/public-buildings-service
+org_primary_bio: "We acquire space through new construction and leasing and maintain federal properties nationwide. We own or lease an inventory of more than 8,800 assets, maintain more than 370 million square feet of workspace for 1.1 million federal employees, and preserve more than 500 historic properties."
+foia_request_url: "https://www.gsa.gov/reference/freedom-of-information-act-foia"
+fraud_waste_abuse_url: "https://www.gsaig.gov/"
+no_fear_act_url: "https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+budget_performance_url: "https://www.gsa.gov/reference/reports/budget-performance"
+accessibility_url: "https://www.gsa.gov/website-information/accessibility-aids"
+usagov_contact_url: "https://www.usa.gov/contact"
+privacy_policy_url: "https://www.gsa.gov/website-information/website-policies"
