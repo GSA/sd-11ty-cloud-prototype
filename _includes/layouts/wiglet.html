@@ -6,22 +6,58 @@ layout: layouts/base
 This template is for a service offering
 {% endcomment %}
 
-<div id="main-content" class="usa-layout-docs usa-section">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <main>
-        <h1>{{ title }}</h1>
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-          <div>Goals:
-            <ul> 
-              {%- for goal in goals %}
-                <li>{{ goal }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-          <div>{{ content }}</div>
-        </div>
-      </main>
+<div id="main-content" class="grid-container usa-section">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-8">
+
+      <h1 class="margin-top-0 margin-bottom-1">{{ title }}</h1>
+      <div class="font-body-lg text-bold text-base">{{ brief }}</div>
+
+      <div>{{ content }}</div>
+
+      <h2>Completed milestones and to-dos</h2>
+      <ol class="usa-process-list">
+        {% for completed in completed_milestones %}
+        <li class="usa-process-list__item usa-process-list__item-complete">
+          <h4 class="usa-process-list__heading">
+            Milestone <small class="text-success">{% uswds_icon "check" %}</small>
+          </h4>
+          <p>
+            {{ completed }}
+          </p>
+        </li>
+        {% endfor %}
+        {% for todo in to_dos %}
+        <li class="usa-process-list__item usa-process-list__item-incomplete">
+          <h4 class="usa-process-list__heading">To-do</h4>
+          <p>
+            {{ todo }}
+          </p>
+        </li>
+        {% endfor %}
+      </ol>
+
+    </div>
+    <div class="tablet:grid-col-fill">
+
+      <div class="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose">
+        <h3 class="padding-bottom-1">Status</h3>
+        {% if piloting %}
+          <strong>Piloting:</strong> This service is currently in operation as a pilot.
+        {% else %}
+          <strong>Not Piloting:</strong> This service is still being built out and is not yet available as a pilot.
+        {% endif %}
+      </div>
+
+      <div class="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose">
+        <h3 class="padding-bottom-1">Goals</h3>
+        <ul class="usa-list">
+          {%- for goal in goals %}
+            <li class="padding-bottom-2">{{ goal }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
   </div>
 </div>
