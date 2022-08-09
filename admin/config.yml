@@ -2,7 +2,7 @@
 backend:
   name: github
   repo: GSA/sd-11ty-cloud-prototype
-  base_url: https://federalistapp.18f.gov
+  base_url: https://federalist-c4474fb7-fe79-4353-aee7-b145439a83d4.app.cloud.gov/site/gsa/sd-11ty-cloud-prototype/
   auth_endpoint: external/auth/github
   preview_context: federalist/build
   branch: main
