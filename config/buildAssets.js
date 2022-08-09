@@ -41,6 +41,7 @@ esbuild
     outdir: '_site/assets',
     loader: {
       '.png': 'dataurl',
+      '.jpg': 'dataurl',
       '.svg': 'dataurl',
       '.ttf': 'dataurl',
       '.woff': 'dataurl',
