@@ -1,4 +1,5 @@
-title: Public Building Services
+title: Workplace 2030
+subtitle: GSA Public Buildings Service
 email: contact@example.gov
 description: >- # this means to ignore newlines
   Workplace 2030 will propel federal work into the next decade with renewed commitment to
@@ -62,7 +63,7 @@ primary_navigation:
       - name: Flexible Coworking Services IDIQ
         url: /services/flexible-coworking
       - name: Home Office Solutions
-        url: /services/home-office-solutions 
+        url: /services/home-office-solutions
       - name: Federal FlexHub
         url: /services/federal-flexhub
       - name: Workplace Innovation Lab (WIL)
