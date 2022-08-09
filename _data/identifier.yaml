@@ -1,11 +1,11 @@
-site_name: Workplace 2030 
+site_name: Workplace 2030
 agency: U.S. General Services Administration
 agency_acronym: GSA
 agency_logo: gsa-logo-blue.svg
 agency_logo_path: _img/gsa-logo-blue.svg
 agency_url: https://www.gsa.gov
 agency_about_url: https://www.gsa.gov/about
-org_primary: Public Building Services 
+org_primary: Public Buildings Service
 org_primary_acronym: PBS
 org_primary_url: https://www.gsa.gov/about-us/organization/public-buildings-service
 org_primary_about: https://www.gsa.gov/about-us/organization/public-buildings-service
