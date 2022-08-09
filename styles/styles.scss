@@ -78,3 +78,13 @@ i.e.
     display: block;
   }
 }
+
+.usa-process-list__item-incomplete::before {
+  color: color('base');
+  border-color: color('base-light');
+}
+
+.usa-process-list__item-complete::before {
+  color: color('success');
+  border-color: color('success');
+}
