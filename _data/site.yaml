@@ -62,19 +62,19 @@ primary_navigation:
       - name: Flexible Coworking Services IDIQ
         url: /services/flexible-coworking
       - name: Home Office Solutions
-        url: "#main-content"
+        url: /services/home-office-solutions 
       - name: Federal FlexHub
-        url: "#main-content"
+        url: /services/federal-flexhub
       - name: Workplace Innovation Lab (WIL)
-        url: "#main-content"
+        url: /services/workplace-innovation-lab
       - name: Fast Track Space
-        url: "#main-content"
+        url: /services/fast-track-space
       - name: Workplace Investment Feasibility Model
-        url: "#main-content"
+        url: /services/workplace-investment
       - name: Federal Space Listing
-        url: "#main-content"
+        url: /services/federal-space-listing
       - name: Workspace App
-        url: "#main-content"
+        url: /services/workspace-app
 
 secondary_navigation:
   - name: Secondary link
