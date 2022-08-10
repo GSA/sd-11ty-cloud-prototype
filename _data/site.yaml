@@ -78,10 +78,10 @@ primary_navigation:
         url: /services/workspace-app
 
 secondary_navigation:
-  - name: Secondary link
-    url: "#main-content"
-  - name: Another secondary link
-    url: "#main-content"
+  - name: Ask GSA a question
+    url: "#"
+  - name: Join the federal conversation
+    url: "#"
 
 # Search.gov configuration
 #
