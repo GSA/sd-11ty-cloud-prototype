@@ -45,7 +45,8 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "netlify-cms": "^2.10.187",
-    "uswds": "^2.13.1"
+    "netlify-cms": "^2.8.0",
+    "uswds": "^2.13.1",
+    "vinyl": "^2.2.1"
   }
 }
